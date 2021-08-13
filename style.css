@@ -1,0 +1,216 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Elements */
+
+.title h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.dog-testimonial h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.pricing h3 {
+    font-size: 1.25rem;
+}
+
+.pricing h2 {
+    font-weight: bold;
+}
+
+.pricing div {
+    padding: 2% 3%;
+}
+
+
+/* navbar */
+
+.title {
+    background-color: #ff4c68;
+    z-index: 1;
+}
+
+.main-top {
+    padding: 5% 15%;
+}
+
+.logo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    margin: 0 18px;
+    font-size: 1.5rem;
+}
+
+.nav-container {
+    padding: 0 0;
+}
+
+
+/* cover part  */
+
+.main-cover {
+    padding-top: 2.5rem;
+}
+
+.iphone-dog {
+    padding-left: 100px;
+}
+
+#iphone-dog-img {
+    width: 20%;
+    transform: rotate(25deg);
+    z-index: 2;
+    position: absolute;
+}
+
+.btn-download {
+    margin: 5% 3% 5% 0%;
+}
+
+
+/* features section  */
+
+.features {
+    z-index: 5;
+    position: relative;
+    background-color: white;
+}
+
+.container-features {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-items {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.feature-icons {
+    color: #ef8172;
+}
+
+.feature-icons:hover {
+    color: #ff4c68;
+}
+
+.features p {
+    color: #8f8f8f;
+}
+
+
+/* testimonial section  */
+
+.dog-testimonial {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.gd-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.articles {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.article-item {
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+
+/* card section  */
+
+.pricing {
+    margin: 5% 5%;
+    text-align: center;
+}
+
+.card-section {
+    margin: 3% auto;
+}
+
+
+/* end download section  */
+
+.download {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 5% 2%;
+    color: #fff;
+}
+
+.download h3 {
+    margin: 35px;
+}
+
+.download-container {
+    padding-bottom: 3%;
+}
+
+.download button {
+    margin: auto 10px;
+}
+
+
+/* footer section  */
+
+footer {
+    margin: 20px;
+    text-align: center;
+}
+
+
+/* media queries  */
+
+@media (max-width: 995px) {
+    .main-cover {
+        text-align: center;
+    }
+    #iphone-dog-img {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+    .iphone-dog {
+        margin: auto;
+        padding: 0;
+    }
+}
+
+@media (max-width: 650px) {
+    .title h1 {
+        font-size: 2.75rem;
+    }
+    #carousel-indicator h1 {
+        font-size: 2.5rem;
+    }
+}
